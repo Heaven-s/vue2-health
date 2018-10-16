@@ -1,55 +1,51 @@
-# 绩效考核 V2.0
+# vue-health
 
-> 绩效考核前端界面
+> 基于Vue2.x开发的一款医疗类WebApp.
 
-## using :
+[项目演示地址](https://heaven-s.github.io/vue-health)
 
-- vue + elementUI
-- axios
-- echart
-- moment
-- less
+![扫描二维码](https://github.com/Heaven-s/vue-health/blob/master/readme/code.png)
 
+## 技术栈
 
-## Build Setup
+vue2.x + vuex + vue-router + iscroll + axios
+
+## 项目运行
 
 ``` bash
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:9800
+# serve with hot reload at localhost:8080
 npm run dev
 
 # build for production with minification
 npm run build
-
 ```
 
------------------------
+## 部分截图
 
 
-## 目录说明
+#### 首页
 
-```bash
-.
-├── README.md
-├── .babelrc                # Babel 配置文件
-├── .gitignore              # Git 忽略文件列表
-├── package.json            # 描述文件
-├── pm2.json                # pm2 部署示例文件
-├── src                     # 源代码目录，编译后目标源代码位于 dist 目录
-│   ├── main.js             # 入口文件
-│   ├── App.vue             # 主组件
-│   ├── utils               # 工具目录
-│       └── index.js        # 公共函数等
-│       └── http.js         # 请求函数封装
-│       └── filters.js      # 公共过滤器
-│   ├── store               # vuex
-│   ├── router              # 路由
-│   ├── pages               # 页面文件
-│   ├── components          # 公共组件
-│   └── assets              # 静态文件
-└── build                   # 构建文件
-└── config                  # 构建配置
+<img src="https://github.com/Heaven-s/vue-health/blob/master/readme/0.png" width="312" height="568"/>
 
-```
+
+#### 症状自诊
+
+<img src="https://github.com/Heaven-s/vue-health/blob/master/readme/1.gif" width="312" height="568"/>
+
+
+#### 疾病大全
+
+<img src="https://github.com/Heaven-s/vue-health/blob/master/readme/2.png" width="312" height="568"/>
+
+
+#### 陪诊
+
+<img src="https://github.com/Heaven-s/vue-health/blob/master/readme/3.png" width="312" height="568"/>
+
+
+#### 个人信息
+
+<img src="https://github.com/Heaven-s/vue-health/blob/master/readme/4.png" width="312" height="568"/>

@@ -1,0 +1,24 @@
+[{
+    "path": "/home",
+    "icon": "icon-shouye",
+    "text": "首页"
+},
+{
+    "path": "/news",
+    "icon": "icon-zixun",
+    "text": "资讯"
+},{
+    "path": "/goods",
+    "icon": "icon-haohuo",
+    "text": "健康好货"
+},
+{
+    "path": "/find",
+    "icon": "icon-faxian",
+    "text": "发现"
+},
+{
+    "path": "/my",
+    "icon": "icon-wode",
+    "text": "我的"
+}]
