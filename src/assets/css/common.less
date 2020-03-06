@@ -1,0 +1,174 @@
+/* 字体颜色
+   ========================================================================== */
+
+
+/** 
+ * 基准字体颜色 
+ * 通常用于页面正文
+*/
+
+@color: #65707f;
+
+/** 
+ * 白色字体颜色 
+ * 通常用于背景容器上的文字
+*/
+
+@color_f: #fff;
+
+/** 
+ * 浅色字体颜色 
+ * 通常用于页面小标题、标题描述信息等
+*/
+
+@color_s: #c5c7ce;
+
+/** 
+ * 浅色字体颜色 
+ * 通常用于页面小标题、标题描述信息等
+*/
+
+@color_m: #9fa1a9;
+
+/** 
+ * 深色字体颜色 
+ * 通常用于页面标题、导航等
+*/
+
+@color_l: #3d4550;
+
+/** 
+ * 蓝色字体颜色 
+ * 通常用于突出性、状态性文字等
+*/
+
+@color_b: #00a2ff;
+
+/* 背景颜色 
+   ========================================================================== */
+
+
+/** 
+ * 蓝色 
+ * 主基调
+*/
+
+@bg: #39b7ff;
+
+/** 
+ * 红色 
+ * 警告
+*/
+
+@bg_info: #ff5468;
+
+/** 
+ * 浅灰 
+ * 导航边框
+*/
+
+@bg_bd: #e6ecf1;
+
+/*详情页面背景颜色
+    ===========================*/
+/**
+  *白色背景颜色
+  *头部背景
+*/
+@bg_header:#fff;
+
+/**
+  *浅灰色偏白背景颜色
+  *内容背景
+*/
+@bg_cont:#fcfcfc;
+
+/**
+  *浅灰色背景颜色
+  *主色背景
+*/
+@bg_main:#f1f3f4;
+
+
+/* 通用样式 
+   ========================================================================== */
+
+
+/* 左浮动 */
+
+.fl() {
+    float: left;
+    display: block;
+}
+
+
+/* 右浮动 */
+
+.fr() {
+    float: right;
+    display: block;
+}
+
+
+/* 文字居中 */
+
+.tc() {
+    text-align: center;
+}
+
+
+/* 加粗文字 */
+
+.bold() {
+    font-weight: bold;
+}
+
+
+/* 长英文强行断行 */
+
+.wrap() {
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+
+/* 单行文本溢出 */
+
+.els() {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+/* 多行文本溢出 */
+
+.elsn (@n: 2) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    word-break: break-all;
+    -webkit-line-clamp: @n;
+    -webkit-box-orient: vertical;
+}
+
+
+/* 清除浮动 */
+
+.clearfix() {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+
+/* 消除transition闪屏 */
+
+.cleartrs() {
+    transform: translate3d(0, 0, 0);
+    -webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+}
+
